@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration System</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #45a049;
+        }
+
+        .signup-box {
+            width: 360px;
+            margin: 40px auto;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+            padding:20
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="button"]:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Registration Form</header>
+
+    <nav>
+        <a href="home.html">Home</a> |
+        <a href="contact.html">Contact Us</a> |
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <main>
+        <section>
+            <div class="signup-box">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <input type="button" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <p>Or Register with </p>
+            <nav>
+                <a href="Instagram">Instagram</a> |
+                <a href="Facebook">Facebook</a> |
+                <a href="LinkedIn">Linkedin</a>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designer: Shouq Albdrani</p>
+        <p><a href="mailto:shouqalbdrani@gmail.com">shouqalbdrani@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
